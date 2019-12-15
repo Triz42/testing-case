@@ -13,7 +13,7 @@ extension UIColor {
     // MARK: - background_app
     /**
      Light: #796AEE
-     Dark: #16191F
+     Dark: #191637
      */
     class var background_app: UIColor {
         return UIColor.init(named: "background_app") ?? UIColor.white

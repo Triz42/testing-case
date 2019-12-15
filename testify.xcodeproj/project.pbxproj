@@ -38,6 +38,7 @@
 		47B3FE3223A69706007B4A1D /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47B3FE1F23A69706007B4A1D /* Poppins-Italic.ttf */; };
 		47B3FE3323A69706007B4A1D /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47B3FE2023A69706007B4A1D /* Poppins-MediumItalic.ttf */; };
 		47B3FE3523A699DD007B4A1D /* UIColor+Testify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3FE3423A699DD007B4A1D /* UIColor+Testify.swift */; };
+		47B3FE3723A6A391007B4A1D /* UIView+Elevate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3FE3623A6A391007B4A1D /* UIView+Elevate.swift */; };
 		47E231FD23A50538009A2635 /* Constraints-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E231FC23A50538009A2635 /* Constraints-Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		47B3FE1F23A69706007B4A1D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		47B3FE2023A69706007B4A1D /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		47B3FE3423A699DD007B4A1D /* UIColor+Testify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Testify.swift"; sourceTree = "<group>"; };
+		47B3FE3623A6A391007B4A1D /* UIView+Elevate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Elevate.swift"; sourceTree = "<group>"; };
 		47E231FC23A50538009A2635 /* Constraints-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constraints-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,6 +205,7 @@
 				47E231FC23A50538009A2635 /* Constraints-Extension.swift */,
 				47B3FE0A23A691B4007B4A1D /* NSMutableAttributedString.swift */,
 				47B3FE3423A699DD007B4A1D /* UIColor+Testify.swift */,
+				47B3FE3623A6A391007B4A1D /* UIView+Elevate.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4773CE2923A43FC70021CF49 /* UIView+Percent.swift in Sources */,
+				47B3FE3723A6A391007B4A1D /* UIView+Elevate.swift in Sources */,
 				47B3FE3523A699DD007B4A1D /* UIColor+Testify.swift in Sources */,
 				478FC02C239E815C001C9FE5 /* IntroViewController.swift in Sources */,
 				47B3FE0723A687E7007B4A1D /* IntroScreen.swift in Sources */,
