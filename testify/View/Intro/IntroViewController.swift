@@ -34,7 +34,7 @@ class IntroViewController: UIViewController, CAAnimationDelegate, UIGestureRecog
         navigationController?.isNavigationBarHidden = true
         
         
-        components.signINButton.addTarget(self, action: #selector(printSomething), for: .touchDown)
+        components.signINButton.addTarget(self, action: #selector(segueToSignIn), for: .touchDown)
         components.signUPButton.addTarget(self, action: #selector(printSomething), for: .touchDown)
     }
 
@@ -132,6 +132,19 @@ class IntroViewController: UIViewController, CAAnimationDelegate, UIGestureRecog
     
     @objc func printSomething(_ button: UIButton) {
         print("Botão pressionado")
+        
+    }
+    
+    @objc func segueToSignIn() {
+        let transition = CATransition.init()
+        transition.duration = 0.5
+        transition.timingFunction = CAMediaTimingFunction.init(name: CAMediaTimingFunctionName.default)
+        transition.type = CATransitionType.push
+        transition.subtype = .fromTop
+        transition.delegate = self
+        self.view.window!.layer.add(transition, forKey: kCATransition)
+        
+        self.navigationController?.pushViewController(SignInViewController(), animated: false)
     }
     
     
